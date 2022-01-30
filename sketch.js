@@ -76,9 +76,9 @@ function updateHeight(x, y) {
 function readHeight(data) {
   //assign the value of data to height
   //assign the x and y value of height to the respective x and y position of balloon
-  height= data.val();
-  ballon.x = height.x
-  ballon.y = height.y
+ height = data.val();
+  balloon.x = height.x
+  balloon.y = height.y
 }
 
 function showError() {
